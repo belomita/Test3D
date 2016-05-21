@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{c81d1b37-2ac1-4a4b-9cc3-33ea0fa6a9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dx11">
+      <UniqueIdentifier>{4c856608-484b-4a8d-95b0-45729b4b2c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui_sample">
+      <UniqueIdentifier>{201fb2e3-cba2-43bf-bfb3-c26cdccba01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{c91c0b01-ca63-49a3-a644-1ec59b5379f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{99e07a5e-bdad-4a3e-aa6f-353917d8d241}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11\dx11_layer.h">
+      <Filter>dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_sample\imgui_sample.h">
+      <Filter>imgui_sample</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h" />
+    <ClInclude Include="lua\script_system.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="util\logger.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua_extention.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua_imgui.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="dx11\dx11_layer.cpp">
+      <Filter>dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_sample\imgui_sample.cpp">
+      <Filter>imgui_sample</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="lua\script_system.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="util\logger.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lua_util.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_lua_bindings.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_iterator.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lua_exports.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lua_extension.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lua_imgui.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
