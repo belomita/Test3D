@@ -17,7 +17,7 @@ local function test_imgui()
 	end
 	
 	imgui.Text('0')
-	--imgui.End()
+	imgui.End()
 end
 
 function ui_startup()

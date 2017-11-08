@@ -16,6 +16,18 @@
     <Filter Include="util">
       <UniqueIdentifier>{99e07a5e-bdad-4a3e-aa6f-353917d8d241}</UniqueIdentifier>
     </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{126c79c2-2a9a-4112-a2b6-335d640a851b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{cf620feb-6d22-4954-b408-78f40ee4c4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{bca86146-7c18-4c27-8aac-e817da66fc7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphic">
+      <UniqueIdentifier>{183a75f8-dbac-4312-9edf-f06ea0aa4170}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="imgui\imconfig.h">
@@ -60,6 +72,48 @@
     </ClInclude>
     <ClInclude Include="lua\lua_imgui.h">
       <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector2.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Math.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Matrix3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Matrix4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Quaternion.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Matrix3x4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="input\InputMapping.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\InputTypes.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="util\util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\FreeCamera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\GpuBuffer.h">
+      <Filter>graphic</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +163,30 @@
     </ClCompile>
     <ClCompile Include="lua\lua_imgui.cpp">
       <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Math.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Vector.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Matrix.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Quaternion.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="input\InputMapping.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\FreeCamera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\GpuBuffer.cpp">
+      <Filter>graphic</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
